@@ -97,6 +97,7 @@ const Home = ({ database }) => {
   const openEditor = (id) => {
     navigate(`/editor/${id}`);
   };
+
   return (
     <div>
       <div className="logout-container">
