@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+* {
+  transition-duration: 1s;
+}
+.App {
+  text-align: center;
+  font-family: Roboto;
+}
+
+.google-btn {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.logout-btn {
+  width: 100px;
+  height: 40px;
+  background: #212121;
+  font-family: Poppins;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.logout-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.title-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 1s;
+  margin-top: 20px;
+}
+.add-title {
+  height: 30px;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.grid-main {
+  display: grid;
+  margin-top: 20px;
+  gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+.grid-child {
+  border: 1px solid #9e9e9e;
+}
+.grid-child:hover{
+  background-color: #9e9e9e;
+  cursor: pointer;
+}
